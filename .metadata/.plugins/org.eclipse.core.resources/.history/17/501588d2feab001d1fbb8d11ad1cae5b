@@ -1,0 +1,16 @@
+
+public class exercicio_fixacao_02 {
+
+	public static void main(String[] args) {
+		
+		int a, b, resultado;
+		a = 10;
+		b = 30;
+		resultado = a + b;
+		
+		System.out.println("Soma = " + resultado);
+			
+
+	}
+
+}

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Entrada_de_dados_Scanner_2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Teste String até a quebra de linha");
+		System.out.println("Digite 3 frases:");
+
+		String a1, a2, a3;
+
+		a1 = sc.nextLine();
+		a2 = sc.nextLine();
+		a3 = sc.nextLine();
+
+		System.out.println("DADOS DIGITADOS: ");
+		System.out.println(a1);
+		System.out.println(a2);
+		System.out.println(a3);
+
+		sc.close();
+	}
+
+}
