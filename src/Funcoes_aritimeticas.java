@@ -1,5 +1,5 @@
 
-public class funcoes_aritimeticas {
+public class Funcoes_aritimeticas {
 
 	public static void main(String[] args) {
 		System.out.println("+ = adição \n"+

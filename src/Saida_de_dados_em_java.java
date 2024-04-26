@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class Main {
+public class Saida_de_dados_em_java {
 
 	public static void main(String[] args) {
 		//Sintaxe para determinar localização do teclado

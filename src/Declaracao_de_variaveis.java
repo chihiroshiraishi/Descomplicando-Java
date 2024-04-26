@@ -1,5 +1,5 @@
 
-public class declaracao_de_variaveis {
+public class Declaracao_de_variaveis {
 
 	public static void main(String[] args) {
 		System.out.println("Para declarar uma variável usamos a seguinte sintaxe \n <tipo> <nome> = <valor inicial>; \n\n");

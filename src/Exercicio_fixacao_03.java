@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exercicio_fixacao_03 {
+public class Exercicio_fixacao_03 {
 
 	public static void main(String[] args) {
 		//Exercício nº 1

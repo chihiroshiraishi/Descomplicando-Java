@@ -1,5 +1,5 @@
 
-public class funcoes_matematicas {
+public class Funcoes_matematicas {
 
 	public static void main(String[] args) {
 
@@ -34,16 +34,18 @@ public class funcoes_matematicas {
 		System.out.println();
 
 		// Exemplo com formúla de báskara
-
+		System.out.println("Agora uma demonstração da formula de báskara, sendo Δ = b² - 4 . a . c e depois x = (-b ± √Δ) / 2 . a"
+				+ "\nNeste exemplo a = 2, b = -5 e c = 3\n");
+	
 		double a, b, c, delta, x1, x2;
 		a = 2;
 		b = -5;
 		c = 3;
-		delta = Math.pow(b, 2.0) - 4 * a * c;
-
+		delta = Math.pow(b, 2.0) - 4 * a * c;	
 		x1 = (-b + Math.sqrt(delta)) / (2 * a);
 		x2 = (-b - Math.sqrt(delta)) / (2 * a);
 
+		System.out.println("Δ = " + delta);
 		System.out.println("O valor de x1 = " + x1);
 		System.out.println("O valor de x2 = " + x2);
 
