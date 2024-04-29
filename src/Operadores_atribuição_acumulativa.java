@@ -6,7 +6,7 @@ public class Operadores_atribuição_acumulativa {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Locale.setDefault(Locale.US);
-		Scanner sc  = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		int minutos = sc.nextInt();
 		double conta = 50.0;
@@ -18,7 +18,13 @@ public class Operadores_atribuição_acumulativa {
 
 			System.out.printf("O valor da conta é R$ %.2f" , conta);
 
-		
+		/*
+		 a += b;  == a = a + b;
+		 a -= b;  == a = a - b;
+		 a *= b;  == a = a * b;
+		 a /= b;  == a = a / b;
+		 a %= b;  == a = a % b;
+		 */
 	}
 
 }

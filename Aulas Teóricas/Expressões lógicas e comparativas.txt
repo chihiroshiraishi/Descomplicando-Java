@@ -1,0 +1,53 @@
+Expressões Comparativas:
+
+Quando precisamos comparar um valor com outro, por exemplo:
+
+x = 5;
+
+1) x > 2   (true)
+2) x == 0  (false)
+3) 10 >= 8 (true)
+4) x != 6  (true)
+
+> (maior)
+< (menor)
+== (igual)
+>= (maior ou igual)
+<= (menor ou igual)
+!= (diferente)
+
+---------------------------------------------------------------------------------------------------------
+Expressões Lógicas:
+
+&& (E) [É usado quando TODAS condições precisam ser verdade)
+	X = 5
+			X <= 20 && X == 10 (false)
+			X > 0 && X != 0 (true)
+			X <= 20 && X == 10 & X != 3 (false)
+			
+		Tabela Verdade do operador (AND)
+		F + F = F
+		T + F = F
+		F + T = F
+		T + T = T
+
+|| (Ou) [É usado quando UMA das condições for verdade)
+	X = 5
+			X == 10 || X <= 20 (true)
+			X > 0 || X != 3 (true)
+			X <= 0 || X != 3 || X != 5 (true)
+			
+		Tabela verdade do operador (OR)
+		F + F = F
+		F + T = T
+		V + F = T
+		T + T = T
+
+
+! (Não) [Quando a condição é oposta da verdade]
+	X = 5
+			!(X == 10) (true)
+			!(X <=20 && X == 10) (false)
+		Tabela verdade do operador (NOT)
+		T = F
+		F = T
